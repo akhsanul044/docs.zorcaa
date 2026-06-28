@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Docs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📄 Portal Docs</h1>
+    <button id="toggle-theme" class="theme-btn">L/D</button>
+  </header>
+
+  <main>
+    <!-- Gambar di depan login -->
+    <div class="login-image">
+      <img src="https://i.ibb.co.com/20VtBNZQ/Whats-App-Image-2026-05-27-at-20-42-52.jpg" alt="Banner Docs">
+    </div>
+
+    <!-- Login Section -->
+    <section id="login">
+      <h2>Login Admin</h2>
+      <form id="loginForm">
+        <label>Username:</label>
+        <input type="text" id="username" required>
+        <label>Password:</label>
+        <input type="password" id="password" required>
+        <button type="submit">Login</button>
+      </form>
+      <p id="loginMessage"></p>
+    </section>
+
+    <!-- Docs Section (hidden by default) -->
+    <section id="docs" style="display:none;">
+      <h2>📘 Link Docs</h2>
+      <!-- Ganti URL di bawah dengan link docs kamu -->
+      <a id="docsLink" href="https://docs.google.com/document/d/1hbdEQzlB7o7cdhK-LE5xd2iq-9AOGyuCGcG0Cj5pMZg/edit?usp=sharing" target="_blank">Masuk ke Docs Saya</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Portal Docs</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
